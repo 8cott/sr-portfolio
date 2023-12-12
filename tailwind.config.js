@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        burtons: "burtons",
+        rubik: ['Rubik', 'sans-serif'],
       },
     },
   },
