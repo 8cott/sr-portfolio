@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar.jsx';
 import Header from './components/Header';
 import ProfilePicture from './components/ProfilePicture';
 import Portfolio from './components/Portfolio';
 import CodingToolbox from './components/CodingToolbox';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Footer from './components/Footer'
+
 
 function App() {
   // Check for system preference for dark mode
