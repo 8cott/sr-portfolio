@@ -2,6 +2,7 @@ import GPTFitness from '../assets/GPTFitness.png';
 import Listings from '../assets/Listings.png';
 import CCCalc from '../assets/CCCalc.png';
 import QuizGame from '../assets/QuizGame.png';
+import ScottRubinRE from '../assets/ScottRubinRE.png';
 
 const Portfolio = () => (
   <section>
@@ -12,7 +13,7 @@ const Portfolio = () => (
       </p>
     </div>
     {/* Portfolio */}
-    <div className='pb-10 flex flex-wrap -mx-4'>
+    <div className='pb-10 flex flex-wrap -mx-4 justify-center'>
       {/* Card 1 */}
       <div className='w-full md:w-1/2 px-4 mb-8'>
         <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
@@ -155,6 +156,41 @@ const Portfolio = () => (
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
                 #api
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+            {/* Card 5 */}
+            <div className='w-full md:w-1/2 px-4 mb-8'>
+        <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
+          <img className='w-full' src={ScottRubinRE} alt='Portfolio image' />
+          <div className='p-4 flex-grow'>
+            <h5 className='text-gray-900 font-bold text-xl mb-2'>
+              <a
+                href='https://scottrubin.com/'
+                className='hover:text-teal-500'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Scott Rubin - Real Estate Broker
+              </a>
+            </h5>
+            <p className='text-gray-700 text-base'>
+              Real Estate branding and marketing website.
+            </p>
+            <div className='pt-4'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #wordpress
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #elementor
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #html
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #ux/ui
               </span>
             </div>
           </div>
