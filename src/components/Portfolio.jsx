@@ -3,6 +3,7 @@ import Listings from '../assets/Listings.png';
 import CCCalc from '../assets/CCCalc.png';
 import QuizGame from '../assets/QuizGame.png';
 import ScottRubinRE from '../assets/ScottRubinRE.png';
+import ColorPalette from '../assets/ColorPalette.png';
 
 const Portfolio = () => (
   <section>
@@ -17,7 +18,14 @@ const Portfolio = () => (
       {/* Card 1 */}
       <div className='w-full md:w-1/2 px-4 mb-8'>
         <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
-          <img className='w-full' src={GPTFitness} alt='Portfolio image' />
+          <a
+            href='https://www.gptfitnessapp.com/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className='w-full' src={GPTFitness} alt='GPTFitness image' />
+          </a>
           <div className='p-4 flex-grow'>
             <h5 className='text-gray-900 font-bold text-xl mb-2'>
               <a
@@ -35,19 +43,19 @@ const Portfolio = () => (
             </p>
             <div className='pt-4'>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #python
+                #OpenAI
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
                 #flask
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #javascript
+                #python
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
                 #react
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #ai
+                #postgreSQL
               </span>
             </div>
           </div>
@@ -56,7 +64,14 @@ const Portfolio = () => (
       {/* Card 2 */}
       <div className='w-full md:w-1/2 px-4 mb-8'>
         <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
-          <img className='w-full' src={Listings} alt='Portfolio image' />
+          <a
+            href='https://listings-app-client.vercel.app/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className='w-full' src={Listings} alt='Listings image' />
+          </a>
           <div className='p-4 flex-grow'>
             <h5 className='text-gray-900 font-bold text-xl mb-2 hover:text-teal-500'>
               <a
@@ -92,7 +107,14 @@ const Portfolio = () => (
       {/* Card 3 */}
       <div className='w-full md:w-1/2 px-4 mb-8'>
         <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
-          <img className='w-full' src={CCCalc} alt='Portfolio image' />
+          <a
+            href='https://cccalc.vercel.app/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className='w-full' src={CCCalc} alt='CCCalc image' />
+          </a>
           <div className='p-4 flex-grow'>
             <h5 className='text-gray-900 font-bold text-xl mb-2'>
               <a
@@ -128,7 +150,108 @@ const Portfolio = () => (
       {/* Card 4 */}
       <div className='w-full md:w-1/2 px-4 mb-8'>
         <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
-          <img className='w-full' src={QuizGame} alt='Portfolio image' />
+          <a
+            href='http://8cott.pythonanywhere.com/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              className='w-full'
+              src={ColorPalette}
+              alt='ColorPalette image'
+            />
+          </a>
+          <div className='p-4 flex-grow'>
+            <h5 className='text-gray-900 font-bold text-xl mb-2'>
+              <a
+                href='http://8cott.pythonanywhere.com/'
+                className='hover:text-teal-500'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Quiz Game
+              </a>
+            </h5>
+            <p className='text-gray-700 text-base'>
+              App that uses OpenAI's GPT API to generate color palettes based on
+              user-provided descriptions, moods, themes, brands.
+            </p>
+            <div className='pt-4'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #OpenAI
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #GPT
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #flask
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #python
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Card 5 */}
+      <div className='w-full md:w-1/2 px-4 mb-8'>
+        <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
+          <a
+            href='https://scottrubin.com/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img
+              className='w-full'
+              src={ScottRubinRE}
+              alt='ScottRubinRE image'
+            />
+          </a>
+          <div className='p-4 flex-grow'>
+            <h5 className='text-gray-900 font-bold text-xl mb-2'>
+              <a
+                href='https://scottrubin.com/'
+                className='hover:text-teal-500'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Scott Rubin - Real Estate Broker
+              </a>
+            </h5>
+            <p className='text-gray-700 text-base'>
+              Real Estate branding and marketing website.
+            </p>
+            <div className='pt-4'>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #wordpress
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #elementor
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #html
+              </span>
+              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
+                #ux/ui
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Card 6 */}
+      <div className='w-full md:w-1/2 px-4 mb-8'>
+        <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
+          <a
+            href='https://8cott.github.io/quiz-game/'
+            className='w-full hover:opacity-75'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <img className='w-full' src={QuizGame} alt='QuizGame image' />
+          </a>
           <div className='p-4 flex-grow'>
             <h5 className='text-gray-900 font-bold text-xl mb-2'>
               <a
@@ -156,41 +279,6 @@ const Portfolio = () => (
               </span>
               <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
                 #api
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-            {/* Card 5 */}
-            <div className='w-full md:w-1/2 px-4 mb-8'>
-        <div className='flex flex-col bg-white rounded-lg shadow-lg overflow-hidden h-full'>
-          <img className='w-full' src={ScottRubinRE} alt='Portfolio image' />
-          <div className='p-4 flex-grow'>
-            <h5 className='text-gray-900 font-bold text-xl mb-2'>
-              <a
-                href='https://scottrubin.com/'
-                className='hover:text-teal-500'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                Scott Rubin - Real Estate Broker
-              </a>
-            </h5>
-            <p className='text-gray-700 text-base'>
-              Real Estate branding and marketing website.
-            </p>
-            <div className='pt-4'>
-              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #wordpress
-              </span>
-              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #elementor
-              </span>
-              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #html
-              </span>
-              <span className='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 hover:text-teal-500'>
-                #ux/ui
               </span>
             </div>
           </div>
