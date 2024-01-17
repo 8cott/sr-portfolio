@@ -170,7 +170,7 @@ const Portfolio = () => (
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                Quiz Game
+                AI Color Palette Generator
               </a>
             </h5>
             <p className='text-gray-700 text-base'>
