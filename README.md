@@ -4,9 +4,9 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.1.8-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 
-This is a simple porfolio site with links to my most recent software development projects and resume. 
+This is a simple portfolio site with links to my most recent software development projects and resume. 
 
-This application was built using React with Vite.
+This application was built using React with Vite and TailwindCSS
 
 ## Live Website
 Check out the live website [here](https://8cott.com/).
