@@ -4,7 +4,7 @@ const Header = () => (
       Scott Rubin
     </h2>
     <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-200'>
-      Software Developer
+      Software Development Portfolio
     </h3>
     <p className='text-md py-4 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-400'>
       Full Stack Software Engineer with Extensive Entrepreneurial Sales

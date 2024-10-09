@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// Import Memoji images
+// Import all the emoji images
 import SRMemoji1 from '../assets/SRMemoji1.png';
 import SRMemoji2 from '../assets/SRMemoji2.png';
 import SRMemoji3 from '../assets/SRMemoji3.png';
